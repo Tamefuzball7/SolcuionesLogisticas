@@ -1,0 +1,37 @@
+{% extends 'layaout.html' %}
+{% block title %}Soluciones Logisticas{% endblock title %}
+{% block body %}
+{% include "loader.html" %}
+{% include "header.html" %}
+
+<div class="page-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 py-3">
+          <div class="subhead">¿Quienes somos?</div>
+          <h2 class="title-section">Somos una <span class="fg-primary">Empresa </span>la cual te brindra varias soluciones logisticas </h2>
+
+          <p>
+            Ya sea que necesites un vehículo de carga para una mudanza o con fines comerciales, 
+            te ofrecemos camiones JAC de carga y grúas para alquileres diarios, 
+            semanales o mensuales. Tenemos los camiones adecuados para ti a un precio excelente y disponibles
+            en el momento y el lugar que los necesites. <br>
+            <br>
+            Nuestro objetivo es porder llegar a todos los rincones de colombia y la region Andina.
+            Para brindar nuestro servicio de la mejor manera para que ustedes como clientes se sienta satisfecho. </p>
+
+          <a href="about.html" class="btn btn-primary mt-4">Saber Más</a>
+        </div>
+        <div class="col-lg-6 py-3">
+          <div class="about-img">
+            <img src="static/assets/img/about.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  {% include "contact.html" %}
+
+{% endblock body %}
+

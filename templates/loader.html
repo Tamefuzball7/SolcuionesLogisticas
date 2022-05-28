@@ -1,0 +1,11 @@
+{% block loader %}
+<link rel="stylesheet" href="static/assets/css/preloader.css">
+<script>  setTimeout(function () {
+    $('.loader_bg').fadeToggle();
+}, 1000);</script>
+      <!-- loader  -->
+      <div class="loader_bg">
+        <div class="loader"><img src="static/assets/img/loading.gif" alt="#" /></div>
+     </div>
+     <!-- end loader -->
+{% endblock loader %}
